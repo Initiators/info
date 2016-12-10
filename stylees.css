@@ -1,0 +1,255 @@
+   background-color:rgba(17, 212, 237, 0.92);
+    background-image: url(image/%D0%97%D0%B8%D0%BC%D0%B0.jpg); 
+    background-repeat:no-repeat; 
+    background-attachment: scroll;
+    background-position: 100px 100px;
+        margin-top: 400px;
+	 color:#65e25b  ;
+    font-weight:bold;
+    text-align:justify;
+    text-decoration:none;
+    text-transform:capitalize;
+    text-indent:30px ;
+    letter-spacing: auto;
+    word-spacing: 4px;   
+    line-height:20px ;
+    import url(http://fonts.googleapis.com/css?family=Cuprum:400,400italic.subset=latin,cyrillie);
+        font-family: "Cuprum", sans-serif;
+   font-style: italic;
+    font-variant: small-caps;
+    }float: left;
+}
+
+#navigation ul li a {
+	color: floralwhite;
+    padding: 0 17px;
+    font-family: "Cuprum", sans-serif;
+    text-decoration: none;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+}
+
+#navigation ul li a:hover {
+	background: rgba(154, 66, 66, 0.76);
+    text-decoration: underline;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#styles li {
+	color:antiquewhite;
+    font-family: "Cuprum", sans-serif;
+    list-style-type:circle;
+    
+    list-style-position: inside;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+#styles li:hover {
+	background: #000;
+}
+
+float: left;
+}
+
+#navigation ul li a {
+	color: floralwhite;
+    padding: 0 17px;
+    font-family: "Cuprum", sans-serif;
+    text-decoration: none;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+}
+
+#navigation ul li a:hover {
+	background: rgba(154, 66, 66, 0.76);
+    text-decoration: underline;
+}
+#navigation {
+	height: 65px;
+}
+
+#navigation ul li {
+	float: left;
+    position: relative;
+}
+
+#navigation ul li a {
+	color: floralwhite;
+    padding: 0 17px;
+    font-family: "Cuprum", sans-serif;
+    text-decoration: none;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+}
+
+#navigation ul li a:hover {
+	background: rgba(154, 66, 66, 0.76);
+    text-decoration: underline;
+}
+
+#navigation .dropdown {
+	position: absolute;
+    top: 100%;
+    width: 130px;
+    background: #575757;
+    display: none;
+}
+
+#navigation li:hover .dropdown {
+	display: block;
+}
+
+#navigation .dropdown li {
+ width: 110px;   
+height: 45px;    
+}
+
+#navigation .dropdown li a {
+ line-height:  45px;  
+ height: 45px;
+}
+.logo {
+    display: block;
+    position: absolute;
+    top:42px;
+    left: 0px;    
+}
+
+#article p {
+	background: orange;
+}
+
+#article > p {
+	background: black;
+}
+
+#article .combinator + p {
+	background: blue;
+}
+
+#article .combinator ~ p {
+    background: pink;
+    
+}
+.pseudo-element::before,
+.pseudo-element::after 
+a[target="_blank"]{
+    color:brown;
+}
+a[title~="Внешняя"]{
+    color: darkviolet;
+}
+
+a[class|="social"]{
+    color:darkmagenta;
+}
+
+a[title$="icon"]{
+    color:chartreuse;
+}
+
+a[title*="co"]{
+    color: cadetblue;
+}
+
+input[type="text"]{
+    border: 1px solid chartreuse;
+}
+
+input[type="button"]{
+    border: 1px solid chartreuse;
+    color:beige;
+    background: cadetblue;
+}
+
+.icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url(image/sprite.png);
+}
+
+.icon.icon-car {
+	background-position: 0 0;
+}
+
+.icon.icon-car:hover {
+    background-position: 0 -40px;
+}
+
+.icon.icon-check {
+	background-position: -40px 0;
+}
+
+.icon.icon-check:hover {
+    background-position: -40px -40px;
+}
+
+.icon.icon-cart {
+	background-position: -80px 0;
+}
+
+.icon.icon-cart:hover {
+    background-position: -80px -40px;
+}
+
+.icon.icon-comments {
+	background-position:-120px 0;
+}
+
+.icon.icon-comments:hover {
+    background-position: -120px -40px;
+}
+

@@ -1,0 +1,342 @@
+LESSON - 3
+
+col-xs-offset-2 - отступ
+hidden-xs visible-md - verstehen
+
+Lesson - 4
+   <ul class="nav navbar-menu">
+                            <li><a href="#">Пункт 1</a></li>
+                            <li><a href="#">Пункт 2</a></li>
+                            <li><a href="#">Пункт 3</a></li>
+                            <li><a href="#">Пункт 4</a></li>
+
+  <div class="container">
+      <div class="row">
+         <h1> Название сайта </h1>
+          <div class="navbar navbar-inverse">
+              <div class="container">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                             <span class="sr-only">Открыть навигацию</span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                         </button>  
+                     <!--<a href="#" class="navbar-brand">Название компании</a>-->
+                    </div>    
+                     <div class="collapse navbar-collapse" id="responsive-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Пункт 1</a></li>
+                            <li><a href="#">Пункт 2</a></li>
+                            <li><a href="#">Пункт 3</a></li>
+                            <li><a href="#">Пункт 4</a></li>
+                        </ul>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+
+Lesson- 5 - DROPDOWN AND NAVIGATION
+   <div class="navbar navbar-inverse navbar-fixed-static-top">
+     <li class="divider"></li>
+       <li class="dropdown">
+                        <a href="#"--class="dropdown-toggle" data-toggle="dropdown">Пункт 2 <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@">Пункт 1</a></li>
+                            <li><a href="@">Пункт 2</a></li>
+                            <li><a href="@">Пункт 3</a></li>
+                            <li class="divider"></li>
+                            <li><a href="@">Пункт 4</a></li>
+                        </ul>
+
+Lesson-6 - SLIDER
+  <div id="carousel" class="carousel slider">
+      <!--Индикаторы слайдов-->
+<ol class="carousel-indicators">
+    <li class="active" data-target="#carousel" data-slide-to="0"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+</ol>  
+<!--Слайды-->
+<div class="caousel-inner">
+    <div class="item active">
+        <img src="images/%D0%B0%D1%82%D0%BE%D0%BC.jpg" alt="">
+        <div class="carousel-caption">
+            <h3>Первый слайд</h3>
+            <p>Описание первого слайда</p>
+        </div>
+    </div>
+    <div class="item">
+       <img src="images/%D0%B1%D1%80.jpg" alt="">
+        <div class="carousel-caption">
+        <h3>Второй слайд</h3>
+        <p>Описание второго слайда</p>
+        </div>
+    </div>
+    <div class="item">
+       <img src="images/%D1%84%D1%80%D1%83%D0%BA%D1%82.jpg" alt="">
+        <div class="carousel-caption">
+        <h3>Третий слайд</h3>
+        <p>Описание третьего слайда</p>
+        </div>        
+    </div>
+</div>
+
+    <!--Стрелки переключения слайдов-->
+     <a href="#carousel" class="left carousel-control" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span> 
+     </a>       
+     <a href="#carousel" class="right carousel-control" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span> 
+     </a>       
+ </div>
+
+Lesson - 7 Glyph Icons URL(awesomeicon.io
+        <p><i class="glyphicon glyphicon-thumbs-up" style="font-size:300%;"></i></p>
+        <p>
+            <span class="fa-stack fa-3x" style="color:rgba(10, 152, 227, 0.9);">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </p>
+  
+               <div class="list-group">
+          <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+          <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+          <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+          <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+        </div>
+<!--fa-spin,rotate-90,flip-vertical -->
+      </div>)
+
+Lesson - 8  Button design
+       <p>
+                <a href="!" class="btn btn-default">Кнопка</a>
+                <a href="!" class="btn btn-primary">Кнопка</a>
+                <a href="!" class="btn btn-success">Кнопка</a>
+                <a href="!" class="btn btn-warning">Кнопка</a>
+                <a href="!" class="btn btn-info">Кнопка</a>
+                <a href="!" class="btn btn-danger">Кнопка</a>
+            </p>
+                <p>
+                    <a href="!" class="btn btn-info btn-block btn-lg active">Кнопка</a>
+                    <a href="!" class="btn btn-info btn-block btn-lg disabled">Кнопка</a>
+                </p> 
+           <p>
+                <a href="!" class="btn btn-primary btn-lg">Кнопка</a>
+                <a href="!" class="btn btn-success btn-md">Кнопка</a>
+                <a href="!" class="btn btn-warning btn-sm">Кнопка</a>
+                <a href="!" class="btn btn-info btn-xs">Кнопка</a>        
+            </p>
+ <button class="btn btn-success btn-lg btn-block" type="submit">Sent</button>    
+            <input class="btn btn-success btn-lg btn-block" type="submit" value="Sent">    
+
+Lesson - 9 Button options
+ <div class="container">
+        <div class="row">
+           <div class="btn-toolbar">
+            <div class="btn-group btn-group-lg">
+                <a href="!" class="btn btn-success"><i class="fa fa-spinner"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-file"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-download"></i></a>
+            </div>
+            <div class="btn-group btn-group-lg">
+                <a href="!" class="btn btn-success"><i class="fa fa-spinner"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-file"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-download"></i></a>
+            </div>       
+            <div class="btn-group btn-group-lg">
+                <a href="!" class="btn btn-success"><i class="fa fa-spinner"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-file"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-download"></i></a>
+            </div>    
+        </div>
+           <br>
+            <div class="btn-toolbar">
+            <div class="btn-group btn-group-justified">
+                <a href="!" class="btn btn-success"><i class="fa fa-spinner"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-file"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-download"></i></a>
+            </div>  
+            <br>
+            <br>
+            <div class="btn-group btn-group-vertical">
+                <a href="!" class="btn btn-success"><i class="fa fa-spinner"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-file"></i></a>
+                <a href="!" class="btn btn-success"><i class="fa fa-download"></i></a>
+            </div> 
+            </div>
+      </div>
+    </div>            
+        </div>
+      </div>  
+
+Lesson - 10  dropdown - decorations
+            <div class="col-sm-6 ">
+                <div class="btn-group dropup">
+                    <button href="@" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+                        Выподающее меню <span class="caret"></span>
+                        </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Ссылка</a></li>
+                        <li><a href="#">Ссылка</a></li>
+                        <li><a href="#">Ссылка</a></li>
+                        <li><a href="#">Ссылка</a></li>
+                        <li><a href="#">Ссылка</a></li>
+                        <li><a href="#">Ссылка</a></li>
+                    </ul>
+                </div>
+            </div>  
+       <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                          <span class="caret"></span>
+                            </button>
+
+Lesson - 11 Tabs creations
+                    <div class="container-fluid">
+       <div class="row">
+            <div class="col-sm-6 ">
+                <div class="tabs">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab-1" data-toggle="tab">Вкладка 1</a></li>
+                        <li><a href="#tab-2" data-toggle="tab">Вкладка 2</a></li>
+                        <li><a href="#tab-3" data-toggle="tab">Вкладка 3</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab-1">
+                            <p> Go on it </p>
+                        </div>
+                        <div class="tab-pane fade" id="tab-2">
+                            <p>Do it</p>
+                        </div>
+                        <div class="tab-pane fade" id="tab-3">
+                            <p> enjoy it</p>
+                        </div>
+
+Lesson - 12 Spoiler
+              <a href="#spoiler-1" data-toggle="collapse" class="btn btn-info spoiler collapsed"><p> спойлер</p></a>
+                <div class="collapse" id="spoiler-1">
+                    <div class="well">
+                     <p>Параграф с текстом</p>
+                 </div>
+            </div>   
+CSS - a.spoiler:after {
+    content: " [-]";
+}
+
+a.spoiler.collapsed:after {
+    content: " [+]";
+}
+
+Lesson - 13 Accordion
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="accordion" class="panel-group">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#collapse-1" data-parent="#accordion" data-toggle="collapse">Открыть первый слайд</a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse in" id="collapse-1">
+                            <div class="panel-body">
+                                <p>
+                        Коллаген — фибриллярный белок, составляющий основу соединительной ткани организма<br> (сухожилие, кость, хрящ, дерма и т. п.) и обеспечивающий её прочность и эластичность <br>  
+                        всём теле. <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#collapse-2" data-parent="#accordion" data-toggle="collapse">Открыть первый слайд</a>
+            </h4>
+        </div>
+            <div class="panel-collapse collapse" id="collapse-2">
+                <div class="panel-body">
+        <p>
+    Коллаген — фибриллярный белок, составляющий основу соединительной ткани организма<br> (сухожилие, кость, хрящ, дерма и т. п.) и обеспечивающий её прочность и эластичность <br>  
+    всём теле. <br>
+            </p>
+            </div>
+                </div>
+                    </div>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a href="#collapse-3" data-parent="#accordion" data-toggle="collapse">Открыть первый слайд</a>
+        </h4>
+    </div>
+    <div class="panel-collapse collapse" id="collapse-3">
+        <div class="panel-body">
+            <p>
+    Коллаген — фибриллярный белок, составляющий основу соединительной ткани организма<br> (сухожилие, кость, хрящ, дерма и т. п.) и обеспечивающий её прочность и эластичность <br>  
+    всём теле. <br>
+            </p>
+        </div>
+    </div>                        
+</div>
+                </div>
+            </div>
+
+Lesson - 14 - Modal - structure - combine
+<div class="col-sm-6">
+                <button class="btn btn-success" type="button" data-toggle="modal" data-target="#modal-1">
+                    Открыть модальное окно
+                </button>
+
+<div class="modal fade" id="modal-1">
+     <div class="modal-dialog modal-md">
+         <div class="modal-content ">
+             <div class="modal-header">
+                  <h4 class="modal-title">Название окна</h4>
+                  <button class="close" type="button" data-dismiss="modal">&times;</button>  
+             </div>
+             <div class="modal-body">
+                 <p>Это модальное окно</p>
+             </div>
+             <div class="modal-footer">
+                 <button class="btn btn-warning" type="button" data-dismiss="modal">Отмена</button>
+             </div>
+         </div>
+     </div>
+ </div>            
+
+Lesson - 15 / Registration in top right
+    <form action="" class="navbar-form navbar-right" class="">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="E-mail" value="">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Пароль" value="">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa fa-sign-in"></i>Войти
+                    </button>
+                </div>
+            </form> 
+
+Lesson - 16 / Progress - bar - indicators
+    <div class="container">
+        <div class="row">
+            <div class="progress">
+                <div class="progress-bar progress-bar-primary" style="min-width: 1%;
+                  width:25%">
+               </div> 
+                 <div class="progress-bar progress-bar-success" style="min-width: 1%; 
+                 width: 25%">
+                </div>
+            </div>
+            <div class="progress" id="js">
+                <div class="progress-bar progress-bar-success progress-bar-striped active"
+                   style="width: 50%">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+Lesson - 17 && 18 LOOK CATALOG
+for better work create in local server this document // can be bug with paste 
+

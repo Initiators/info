@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> CSS </title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="icon.css">
+     <link rel="stylesheet" href="input.css">
+     <link rel="stylesheet" href="pseudo.css">
+     <link rel="stylesheet" href="nominals.css">
+     <link rel="stylesheet" href="navigation.css">    
+     <link rel="stylesheet" href="responsive.css">
+      </head>
+    <body>
+         <div id="page">
+          <div id="navigation">
+                       <ul>
+                    <li><a href="@">Пункт 1 </a></li>
+                    <li>
+                    <a href="@">Пункт 2 </a>
+                     <ul class="dropdown">
+                         <li><a href="%"> link 1</a></li>
+                         <li><a href="%"> link 2</a></li>
+                         <li><a href="%"> link 3</a></li>
+                         <li><a href="%"> link 4</a></li>
+                     </ul>
+                    </li>
+                    <li><a href="@">Пункт 3 </a></li>
+                    <li><a href="@">Пункт 4</a></li>
+                    <li>
+                    <a href="@">Пункт 5</a> 
+                     <div id="sight">
+                         <ul class="dropdown">
+                         <li><a href="%"> link 1</a></li>
+                         <li><a href="%"> link 2</a></li>
+                         <li><a href="%"> link 3</a></li>
+                         <li><a href="%"> link 4</a></li>
+                         </ul>
+                        </div> 
+                    </li>
+                </ul>  
+          </div>
+          
+            
+            <div id="header">
+            <a class="logo" href="index#.html" name="Логотип"  >
+                <img src="image/logo.png"  alt="Логотип"> 
+            </a>
+            
+            <form class="searc">
+                <input type="text">
+                <input type="button" value="поиск">
+                <a href="index-prototype.html"></a>
+            </form>
+           
+            </div>
+<div id="content">
+                    <div id="article">
+                        <p> Наш параграф</p>
+                        <p> Наш параграф</p>
+                        <p> Наш параграф</p>
+                        <div class="combinator">
+                            <p> Наш параграф</p>
+                        </div>
+                        <p> Наш параграф</p>
+                        <p> Наш параграф</p>
+                        <p> <a href="index.html" class="pseudo-class"> Псевдокласс </a> Passage </p>
+                        <p><a href="!" target="_blank"> text outline link </a></p>
+                        <p><a href="!" target="_blank" title="ССЫЛКА Внешняя"> text outline link </a></p>
+                        <p><a href="!" class="social-vk " > text outline link </a></p>
+                        <p><a href="prototype.html"  title="social button"> text outline link </a></p>
+                        <p><a href="!"  title="tab icon" >  text outline link </a></p>
+                        <p class="pseudo-element">В таких комплексных соединениях атом Бор окружен четырьмя атомами (или группами атомов), что соответствует характерному для Бора в его соединениях координационному числу 4.</p>
+                        <p class="first-letter"> таких комплексных соединениях<br><br> </p>
+                        <p class="first-line">
+                        <span class="icon icon-car"></span>
+                        <span class="icon icon-check"></span>
+                        <span class="icon icon-cart"></span>
+                        <span class="icon icon-comments"></span>
+                        таких комплексных соединениях  </p>
+                        </div>
+                    <div id="sidebar">
+                        <ul>
+                            <li>Пункт 1</li>
+                            <li>Пункт 2</li>
+                            <li>Пункт 3</li>
+                            <li>Пункт 4</li>
+                        </ul>
+                   
+                </div>            
+      </div>    
+                       <div id="footer"> 
+                       <p>Авторские права</p> 
+                       </div>
+                <div>
+                
+                </div>     
+         <!--   <div id="fixed">
+  
+            <div id="modal-body">
+                <p> Параграф </p>
+            </div>
+            </div>-->       
+             <img src="image/winter.jpg" alt="winter" id="image" onclick="changeImage()">  
+        <script>
+            function changeImage() {
+                var image = document.getElementById('image');
+                
+                if (image.src.match("winter")){
+                    image.src = "image/vkontakte.png";
+                } else {
+                    image.src = "image/winter.jpg";
+                }
+            }
+        </script>     
+             
+				<form action="prototype.html" method="get">
+					<label for="first_name"> ваше имя: </label> <input type="text" id="first_name" name="first name" placeholder="ваше имя"><br>
+					 <label for="password"> Ваш пароль :</label> <input type="password" id="password" name="password"><br>
+					<input  type="checkbox" value="1"> remeber me <br>
+					 Ваш пол :<input type="radio" value="male" name="sex"> Мужской : Женский <input type="radio" name="sex" value="female"><br>
+					<textarea name="comments" rows="10" cols="30"></textarea><br>
+					<input type="submit" name="submit" value="отправить">
+				</form>       
+        </div>
+     </body>
+</html> 
